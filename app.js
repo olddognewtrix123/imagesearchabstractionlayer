@@ -24,7 +24,7 @@ app.listen(app.get('port'), function() {
 });
 
 //if the user just hits the page, this returns the main page with instructions
-app.get('/', (req, res, next) => res.sendFile(path.join(__dirname, '/node_modules/index.html')) ) ;
+app.get('/', (req, res, next) => res.sendFile(path.join(__dirname, '/index.html')) ) ;
 
 
 app.get('/history', function(req, res) {
