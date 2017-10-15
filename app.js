@@ -16,12 +16,15 @@ var MongoClient = mongodb.MongoClient;
 var MONGODB_URI ='mongodb://isaldbuser:isaldbuserpword@ds121015.mlab.com:21015/isal_history';
 
 //tells it which port to listen to
-app.set('port', (process.env.PORT || 5000));
+//app.set('port', (process.env.PORT || 5000));
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
 
 //tells it to start listening to that port
-app.listen(app.get('port'), function() {
-  console.log('The testSearchIAL app is running on port', app.get('port'));
-});
+//app.listen(app.get('port'), function() {
+//  console.log('The testSearchIAL app is running on port', app.get('port'));
+//});
 
 //if the user just hits the page, this returns the main page with instructions
 app.get('/', (req, res, next) => res.sendFile(path.join(__dirname, '/index.html')) ) ;
