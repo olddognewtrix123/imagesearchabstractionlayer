@@ -10,6 +10,7 @@
     "cors": "^2.8.4",
     "crypto": "^1.0.1",
     "express": "^4.15.4",
+    "moment": "^2.15.1",
     "google-search": "0.0.5",
     "googleapis": "^22.1.0",
     "mongodb": "^2.2.31",
