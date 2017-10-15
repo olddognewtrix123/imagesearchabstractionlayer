@@ -1,6 +1,7 @@
 
 {
   "name": "urlshortener",
+  "entry point": "app.js",
   "version": "1.0.0",
   "description": "url shortener microservice for free code camp challenge",
   "main": "app.js",
