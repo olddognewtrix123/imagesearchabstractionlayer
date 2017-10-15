@@ -9,7 +9,7 @@ var port = process.env.PORT || 8080;
 var mongodb=require("mongodb")
 var MongoClient = mongodb.MongoClient;
 const mongoose = require('mongoose');
-const searches = require('./models/searches');
+//const searches = require('./models/searches');
 var MongoClient = mongodb.MongoClient;
 
 // this will need to be updated when I add the new document in mongo!!!!!
