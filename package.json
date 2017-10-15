@@ -18,7 +18,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "start": "node app.js"
   },
   "keywords": [
     "url",
